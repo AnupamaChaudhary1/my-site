@@ -45,7 +45,8 @@ import react from '@vitejs/plugin-react-swc'
 import path from 'path'
 
 export default defineConfig(({ mode }) => ({
-  base: '/my-site/', // ✅ correct for GitHub Pages
+  // base: '/my-site/', // ✅ correct for GitHub Pages
+  base: '/',
   plugins: [react()],
   resolve: {
     alias: {
