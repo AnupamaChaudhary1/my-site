@@ -1,3 +1,5 @@
+import emailjs from 'emailjs-com';
+
 
 import React from 'react';
 import Navigation from '../components/Navigation';
@@ -6,6 +8,7 @@ import About from '../components/About';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 
+import ContactForm from '@/components/ContactForm';
 const Index = () => {
   console.log('Index component rendering...');
   

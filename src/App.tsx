@@ -1,3 +1,6 @@
+import emailjs from 'emailjs-com';
+
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -7,6 +10,8 @@ import Index from "./pages/Index";
 import './index.css';  // or wherever your main CSS is
 
 import NotFound from "./pages/NotFound";
+
+import ContactForm from '@/components/ContactForm';
 
 const queryClient = new QueryClient();
 
