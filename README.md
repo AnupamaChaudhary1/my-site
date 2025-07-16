@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://anupamas-ai-portfolio.lovable.app/
+**URL**: https://anupamachaudhary1.github.io/my-site/
 
 ## How can I edit this code?
 
