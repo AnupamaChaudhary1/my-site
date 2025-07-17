@@ -7,13 +7,13 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "AI Chat Assistant",
-      description: "Intelligent AI assistant featuring natural language processing, context awareness, and real-time learning capabilities. Integrated with modern UI/UX for seamless user interaction.",
+      title: "School Fee Analysis",
+      description: "An interactive Streamlit app that analyzes and predicts school fees using intelligent visualizations and machine learning. Built with Python and Streamlit.",
       image: "/api/placeholder/400/250",
-      category: "ai-application",
-      tags: ["AI/ML", "NLP", "React", "TypeScript"],
-      github: "https://github.com/AnupamaChaudhary1",
-      demo: "#",
+      category: "data-analytics",
+      tags: ["AI/ML", "Streamlit", "Pandas", "Python"],
+      github: "https://github.com/AnupamaChaudhary1/School_feeAnalysis", // if available
+      demo: "https://feeapp-anu.streamlit.app", // ✅ updated live link
       status: "live",
       date: "2025"
     },
@@ -81,7 +81,7 @@ const Projects = () => {
 
   const categories = [
     { name: 'All', value: 'all', icon: Eye },
-    { name: 'AI Application', value: 'ai-application', icon: Brain },
+    // { name: 'AI Application', value: 'data-analytics', icon: Brain },
     { name: 'Machine Learning', value: 'machine-learning', icon: Code },
     { name: 'Computer Vision', value: 'computer-vision', icon: Eye },
     { name: 'Data Analytics', value: 'data-analytics', icon: Database },
