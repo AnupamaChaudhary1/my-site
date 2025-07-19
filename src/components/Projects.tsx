@@ -37,7 +37,7 @@ const Projects = () => {
       image: "/api/placeholder/400/250",
       category: "web-development",
       tags: ["React", "TypeScript", "JavaScript", "HTML", "CSS", "JSON"],
-      github: "https://github.com/AnupamaChaudhary1",
+      github: "https://github.com/AnupamaChaudhary1/model-school-webpage",
       demo: "https://anupamachaudhary1.github.io/model-school-webpage/",
       status: "live",
       date: "2025"
