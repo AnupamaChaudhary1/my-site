@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Github, ExternalLink, Play, Code, Database, Brain, Eye, Calendar, Tag } from 'lucide-react';
+import { Github, ExternalLink, Play, Code, Database, Brain, Eye, Calendar, Tag, Globe } from 'lucide-react';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -17,18 +17,33 @@ const Projects = () => {
       status: "live",
       date: "2025"
     },
+    // {
+    //   id: 2,
+    //   title: "Sales Forecasting ML Pipeline",
+    //   description: "End-to-end machine learning pipeline for sales prediction using ensemble methods, time series analysis, and feature engineering. Achieves 94% accuracy with automated retraining capabilities.",
+    //   image: "/api/placeholder/400/250",
+    //   category: "machine-learning",
+    //   tags: ["Python", "Scikit-learn", "XGBoost", "Time Series", "MLOps"],
+    //   github: "https://github.com/AnupamaChaudhary1",
+    //   demo: "#",
+    //   status: "production",
+    //   date: "2024"
+    // },
+
     {
       id: 2,
-      title: "Sales Forecasting ML Pipeline",
-      description: "End-to-end machine learning pipeline for sales prediction using ensemble methods, time series analysis, and feature engineering. Achieves 94% accuracy with automated retraining capabilities.",
+      title: "Modern School Webpage with React",
+      description: "A responsive and interactive school website built using React, TypeScript, HTML, CSS, and modern JavaScript. Features smooth navigation, dynamic UI components, and clean code structure.",
       image: "/api/placeholder/400/250",
-      category: "machine-learning",
-      tags: ["Python", "Scikit-learn", "XGBoost", "Time Series", "MLOps"],
+      category: "web-development",
+      tags: ["React", "TypeScript", "JavaScript", "HTML", "CSS", "JSON"],
       github: "https://github.com/AnupamaChaudhary1",
-      demo: "#",
-      status: "production",
-      date: "2024"
+      demo: "https://anupamachaudhary1.github.io/model-school-webpage/",
+      status: "live",
+      date: "2025"
     },
+
+
     {
       id: 3,
       title: "Computer Vision Object Detector",
@@ -81,7 +96,8 @@ const Projects = () => {
 
   const categories = [
     { name: 'All', value: 'all', icon: Eye },
-    // { name: 'AI Application', value: 'data-analytics', icon: Brain },
+    { name: 'AI Application', value: 'data-analytics', icon: Brain },
+    { name: 'Web Development', value: 'web-development', icon: Globe },
     { name: 'Machine Learning', value: 'machine-learning', icon: Code },
     { name: 'Computer Vision', value: 'computer-vision', icon: Eye },
     { name: 'Data Analytics', value: 'data-analytics', icon: Database },
