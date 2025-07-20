@@ -13,7 +13,7 @@ const Projects = () => {
       category: "data-analytics",
       tags: ["AI/ML", "Streamlit", "Pandas", "Python"],
       github: "https://github.com/AnupamaChaudhary1/School_feeAnalysis", // if available
-      demo: "https://feeapp-anu.streamlit.app", // ✅ updated live link
+      demo: "https://schoolfeeanalysis-anupamax.streamlit.app/", // ✅ updated live link
       status: "live",
       date: "2025"
     },
