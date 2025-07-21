@@ -46,15 +46,14 @@ const Projects = () => {
 
     {
       id: 3,
-      title: "Computer Vision Object Detector",
-      description: "Real-time object detection system using YOLO v8 and OpenCV. Deployed on edge devices with 95% accuracy for industrial quality control applications.",
+      title: "Phishing Site Detection",
+      description: "Real-time phishing site detection that help general people to detect and be aware of getting into illegal sites and applications.",
       image: "/api/placeholder/400/250",
-      category: "computer-vision",
-      tags: ["Python", "YOLOv8", "OpenCV", "TensorFlow", "Edge AI"],
-      github: "https://github.com/AnupamaChaudhary1",
-      demo: "#",
+      category: "data-analytics",
+      tags: [  "Python",  "Machine Learning",  "Streamlit",  "Scikit-learn",  "Random Forest",  "Phishing Detection",  "Cybersecurity",  "URL Analysis",  "WHOIS",  "Open Source"],
+      demo: "https://phishing-website-anuverse.streamlit.app/",
       status: "live",
-      date: "2024"
+      date: "2025"
     },
     {
       id: 4,
